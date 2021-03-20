@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130F519D2604C11E003B208B /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130F519C2604C11E003B208B /* RecipeDetailView.swift */; };
+		130F519E2604C11E003B208B /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130F519C2604C11E003B208B /* RecipeDetailView.swift */; };
+		13687B4625EA765F00C987AD /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13687B4525EA765F00C987AD /* RecipeModel.swift */; };
+		13687B4C25EA7D7000C987AD /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13687B4B25EA7D7000C987AD /* DataService.swift */; };
+		13B0186D25E0409C0029D12A /* Pecipe_List_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0185A25E0409B0029D12A /* Pecipe_List_App.swift */; };
+		13B0186E25E0409C0029D12A /* Pecipe_List_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0185A25E0409B0029D12A /* Pecipe_List_App.swift */; };
+		13B0186F25E0409C0029D12A /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0185B25E0409B0029D12A /* RecipeListView.swift */; };
+		13B0187025E0409C0029D12A /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0185B25E0409B0029D12A /* RecipeListView.swift */; };
+		13B0187125E0409C0029D12A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B0185C25E0409C0029D12A /* Assets.xcassets */; };
+		13B0187225E0409C0029D12A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B0185C25E0409C0029D12A /* Assets.xcassets */; };
+		13B0188725E043500029D12A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0188625E043500029D12A /* Recipe.swift */; };
+		13B0189125E043960029D12A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B0188625E043500029D12A /* Recipe.swift */; };
+		13E5D9FD25E8240D0064E1B4 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = 13E5D9FC25E8240D0064E1B4 /* recipes.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		130F519C2604C11E003B208B /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		13687B4525EA765F00C987AD /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		13687B4B25EA7D7000C987AD /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		13B0185A25E0409B0029D12A /* Pecipe_List_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pecipe_List_App.swift; sourceTree = "<group>"; };
+		13B0185B25E0409B0029D12A /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		13B0185C25E0409C0029D12A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13B0186125E0409C0029D12A /* Pecipe List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pecipe List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B0186425E0409C0029D12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B0186925E0409C0029D12A /* Pecipe List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pecipe List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B0186B25E0409C0029D12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B0186C25E0409C0029D12A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		13B0188625E043500029D12A /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		13E5D9FC25E8240D0064E1B4 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = "../../../../Documents/iOS Foundations 2021/Module 2/Lesson 13/Recipe List App/Recipe List App/Data/recipes.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B0185E25E0409C0029D12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B0186625E0409C0029D12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B0185425E0409B0029D12A = {
+			isa = PBXGroup;
+			children = (
+				13B0185A25E0409B0029D12A /* Pecipe_List_App.swift */,
+				13B0185925E0409B0029D12A /* Shared */,
+				13B0186325E0409C0029D12A /* iOS */,
+				13B0186A25E0409C0029D12A /* macOS */,
+				13B0186225E0409C0029D12A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13B0185925E0409B0029D12A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				13B0188125E041280029D12A /* Views */,
+				13B0188025E0411D0029D12A /* ViewModels */,
+				13B0187F25E0410F0029D12A /* Models */,
+				13B0187E25E041000029D12A /* Data */,
+				13B0187D25E040F60029D12A /* Services */,
+				13B0185C25E0409C0029D12A /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		13B0186225E0409C0029D12A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B0186125E0409C0029D12A /* Pecipe List App.app */,
+				13B0186925E0409C0029D12A /* Pecipe List App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13B0186325E0409C0029D12A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				13B0186425E0409C0029D12A /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		13B0186A25E0409C0029D12A /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				13B0186B25E0409C0029D12A /* Info.plist */,
+				13B0186C25E0409C0029D12A /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		13B0187D25E040F60029D12A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				13687B4B25EA7D7000C987AD /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		13B0187E25E041000029D12A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				13E5D9FC25E8240D0064E1B4 /* recipes.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		13B0187F25E0410F0029D12A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				13B0188625E043500029D12A /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		13B0188025E0411D0029D12A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				13687B4525EA765F00C987AD /* RecipeModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		13B0188125E041280029D12A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13B0185B25E0409B0029D12A /* RecipeListView.swift */,
+				130F519C2604C11E003B208B /* RecipeDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B0186025E0409C0029D12A /* Pecipe List App (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B0187525E0409C0029D12A /* Build configuration list for PBXNativeTarget "Pecipe List App (iOS)" */;
+			buildPhases = (
+				13B0185D25E0409C0029D12A /* Sources */,
+				13B0185E25E0409C0029D12A /* Frameworks */,
+				13B0185F25E0409C0029D12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pecipe List App (iOS)";
+			productName = "Pecipe List App (iOS)";
+			productReference = 13B0186125E0409C0029D12A /* Pecipe List App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13B0186825E0409C0029D12A /* Pecipe List App (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B0187825E0409C0029D12A /* Build configuration list for PBXNativeTarget "Pecipe List App (macOS)" */;
+			buildPhases = (
+				13B0186525E0409C0029D12A /* Sources */,
+				13B0186625E0409C0029D12A /* Frameworks */,
+				13B0186725E0409C0029D12A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pecipe List App (macOS)";
+			productName = "Pecipe List App (macOS)";
+			productReference = 13B0186925E0409C0029D12A /* Pecipe List App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13B0185525E0409B0029D12A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					13B0186025E0409C0029D12A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					13B0186825E0409C0029D12A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 13B0185825E0409B0029D12A /* Build configuration list for PBXProject "Pecipe List App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13B0185425E0409B0029D12A;
+			productRefGroup = 13B0186225E0409C0029D12A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B0186025E0409C0029D12A /* Pecipe List App (iOS) */,
+				13B0186825E0409C0029D12A /* Pecipe List App (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B0185F25E0409C0029D12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B0187125E0409C0029D12A /* Assets.xcassets in Resources */,
+				13E5D9FD25E8240D0064E1B4 /* recipes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B0186725E0409C0029D12A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B0187225E0409C0029D12A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B0185D25E0409C0029D12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B0186F25E0409C0029D12A /* RecipeListView.swift in Sources */,
+				130F519D2604C11E003B208B /* RecipeDetailView.swift in Sources */,
+				13687B4625EA765F00C987AD /* RecipeModel.swift in Sources */,
+				13B0188725E043500029D12A /* Recipe.swift in Sources */,
+				13B0186D25E0409C0029D12A /* Pecipe_List_App.swift in Sources */,
+				13687B4C25EA7D7000C987AD /* DataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B0186525E0409C0029D12A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B0187025E0409C0029D12A /* RecipeListView.swift in Sources */,
+				13B0189125E043960029D12A /* Recipe.swift in Sources */,
+				13B0186E25E0409C0029D12A /* Pecipe_List_App.swift in Sources */,
+				130F519E2604C11E003B208B /* RecipeDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B0187325E0409C0029D12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13B0187425E0409C0029D12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		13B0187625E0409C0029D12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devdoshi.Pecipe-List-App";
+				PRODUCT_NAME = "Pecipe List App";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13B0187725E0409C0029D12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devdoshi.Pecipe-List-App";
+				PRODUCT_NAME = "Pecipe List App";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13B0187925E0409C0029D12A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "devdoshi.Pecipe-List-App";
+				PRODUCT_NAME = "Pecipe List App";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		13B0187A25E0409C0029D12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "devdoshi.Pecipe-List-App";
+				PRODUCT_NAME = "Pecipe List App";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B0185825E0409B0029D12A /* Build configuration list for PBXProject "Pecipe List App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B0187325E0409C0029D12A /* Debug */,
+				13B0187425E0409C0029D12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B0187525E0409C0029D12A /* Build configuration list for PBXNativeTarget "Pecipe List App (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B0187625E0409C0029D12A /* Debug */,
+				13B0187725E0409C0029D12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B0187825E0409C0029D12A /* Build configuration list for PBXNativeTarget "Pecipe List App (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B0187925E0409C0029D12A /* Debug */,
+				13B0187A25E0409C0029D12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13B0185525E0409B0029D12A /* Project object */;
+}
