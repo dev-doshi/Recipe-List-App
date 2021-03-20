@@ -48,7 +48,7 @@ struct RecipeDetailView: View {
                 }
                 .padding(.horizontal)
             }
-        }
+        }.navigationTitle(recipe.name)
     }
 }
 
