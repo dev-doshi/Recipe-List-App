@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13010913261F3E5B003D8698 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13010912261F3E5B003D8698 /* Ingredient.swift */; };
+		13010914261F3E5B003D8698 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13010912261F3E5B003D8698 /* Ingredient.swift */; };
 		130735D726061C580027E6CA /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130735D626061C580027E6CA /* RecipeTabView.swift */; };
 		130735D826061C580027E6CA /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130735D626061C580027E6CA /* RecipeTabView.swift */; };
 		130F519D2604C11E003B208B /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130F519C2604C11E003B208B /* RecipeDetailView.swift */; };
@@ -25,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13010912261F3E5B003D8698 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		130735D626061C580027E6CA /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		130F519C2604C11E003B208B /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		13687B4525EA765F00C987AD /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
@@ -129,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				13B0188625E043500029D12A /* Recipe.swift */,
+				13010912261F3E5B003D8698 /* Ingredient.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -249,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13010913261F3E5B003D8698 /* Ingredient.swift in Sources */,
 				13B0186F25E0409C0029D12A /* RecipeListView.swift in Sources */,
 				130F519D2604C11E003B208B /* RecipeDetailView.swift in Sources */,
 				13687B4625EA765F00C987AD /* RecipeModel.swift in Sources */,
@@ -267,6 +272,7 @@
 				13B0187025E0409C0029D12A /* RecipeListView.swift in Sources */,
 				13B0189125E043960029D12A /* Recipe.swift in Sources */,
 				13B0186E25E0409C0029D12A /* Pecipe_List_App.swift in Sources */,
+				13010914261F3E5B003D8698 /* Ingredient.swift in Sources */,
 				130F519E2604C11E003B208B /* RecipeDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

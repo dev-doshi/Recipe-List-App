@@ -14,19 +14,18 @@ struct RecipeTabView: View {
             Text("FeaturedView")
                 .tabItem {
                     VStack{
-                        Image(systemName: "list.bullet")
-                        Text("All Recipes")
+                        Image(systemName: "star.fill")
+                        Text("Featured")
                     }
                 }
             
             RecipeListView()
                 .tabItem {
                     VStack{
-                        Image(systemName: "star.fill")
-                        Text("Featured")
+                        Image(systemName: "list.bullet")
+                        Text("All Recipes")
                     }
                 }
-            
         }
     }
 }

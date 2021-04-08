@@ -23,16 +23,16 @@ struct RecipeDetailView: View {
                     .cornerRadius(10)
                 
                 //MARK: Ingredients
-                VStack(alignment: .leading){
+                VStack(alignment: .leading) {
                     Text("Ingredients")
                         .font(.headline)
-                        .padding(.vertical, 5.0)
-                
-                    ForEach(recipe.ingredients, id:\.self){ item in
-                        Text("⦁ " + item)
+                        .padding(.vertical)
+                    
+                    ForEach (recipe.ingredients) { item in
+                        Text("• " + item.name)
                     }
-                }
-                .padding(.horizontal)
+                }.padding(.horizontal)
+
                 
                 //MARK: Directions
                 VStack(alignment: .leading){
@@ -45,8 +45,7 @@ struct RecipeDetailView: View {
                             .padding(.bottom, 2)
                     
                     }
-                }
-                .padding(.horizontal)
+                }.padding(.horizontal)
             }
         }.navigationTitle(recipe.name)
     }

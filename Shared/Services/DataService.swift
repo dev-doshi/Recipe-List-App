@@ -11,55 +11,55 @@ class DataService {
     
     static func getLocalData() -> [Recipe] {
         
-        //Parse local json file
+        // Parse local json file
         
-        //Get a url path to the json file
+        // Get a url path to the json file
         let pathString = Bundle.main.path(forResource: "recipes", ofType: "json")
         
-        //Check if pathString is not nil, otherwise...
+        // Check if pathString is not nil, otherwise...
         guard pathString != nil else {
             return [Recipe]()
         }
         
-        //Create a url object
+        // Create a url object
         let url = URL(fileURLWithPath: pathString!)
         
         do {
-            //Create a data object
+            // Create a data object
             let data = try Data(contentsOf: url)
             
-            //Decode the data with a JSON decoder
-            
+            // Decode the data with a JSON decoder
             let decoder = JSONDecoder()
             
-            do{
+            do {
+                
                 let recipeData = try decoder.decode([Recipe].self, from: data)
                 
-                //add the unique ids
-                for r in recipeData{
+                // Add the unique IDs
+                for r in recipeData {
                     r.id = UUID()
+                    
+                    // Add unique IDs to recipe ingredients
+                    for i in r.ingredients {
+                        i.id = UUID()
+                    }
                 }
                 
-                print(recipeData)
-                //return the reipes
+                // Return the recipes
                 return recipeData
-                
             }
-            catch{
-                //Error with parsing json
+            catch {
+                // error with parsing json
                 print(error)
             }
-            
-            //Add the unique IDs
-            
-            //Return the recipes
-            
         }
         catch {
-            //error with getting data
+            // error with getting data
             print(error)
         }
         
         return [Recipe]()
     }
+    
 }
+
